@@ -1,0 +1,72 @@
+<html>
+<head>
+ <title>Forms</title>
+</head>
+<body>
+ < ="http://www.example.com/review.php" method="get">
+ <>
+ <>
+ Your Details:
+ </>
+ <>
+ Name:
+ < ="text" ="name" ="30" ="100">
+ </>
+ <br />
+ <>
+ Email:
+ < ="email" ="email" ="30" ="100">
+ </>
+ <br />
+ </>
+ <br />
+ <>
+ <>
+ Your Review:
+ </>
+ <p>
+ < for="hear-about">
+ How did you hear about us?
+ </>
+ < ="referrer" id="hear-about">
+ < ="google">Google</>
+ < ="friend">Friend</>
+ < ="advert">Advert</>
+ < ="other">Other</>
+ </>
+ </p>
+ <p>
+ Would you visit again?
+   <br />
+    <>
+    < ="radio" name="rating" value="yes" />
+    Yes
+    </>
+    <>
+    < ="radio" name="rating" value="no" />
+    No
+    </>
+    <>
+    < type="radio" name="rating" value="maybe" />
+    Maybe
+    </>
+    </p>
+    <p>
+    < for="comments">
+    Comments:
+    </>
+    <br />
+    < rows="4" cols="40" id="comments">
+    </>
+    </p>
+    <>
+    < ="checkbox" name="subscribe" checked="checked" />
+    Sign me up for email updates
+    </>
+    <br />
+    < type="submit" value="Submit review" />
+    </>
+    </>
+   </body>
+   </html>
+   
